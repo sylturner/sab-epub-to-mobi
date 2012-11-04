@@ -14,7 +14,7 @@ Post processing script to convert `epub` ebooks to `mobi` format. You can also s
 
 * Add the `KindleGen` binary to your PATH
 * Shutdown SABnzbd, then restart it (you _must_ do this instead of regular "restart" so SAB picks up on the new PATH variables)
-* If using `sendKindle`, put the script in your SABnzbd user scripts directory.
+* If using `sendKindle`, put the script in your SABnzbd directory (e.g. `C:\Program Files (x86)\SABnzbd`)
 	* Run `sendKindle` through command line once to create its config file.
 	* Edit the config file with SMTP and Kindle settings.
 * Configure SABnzbd to use the `epub-to-mobi.py` post processing script for ebooks
